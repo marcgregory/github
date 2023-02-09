@@ -1,0 +1,9 @@
+git config --global user.email ""
+git config --global user.name ""
+git init
+git remote add origin https://github.com/marcgregory/example.git
+git status
+git add . (no need to write git status)
+git commit -m "initialized git repository"
+git branch -M main
+git push (not first time)  or git push --set-upstream origin master (send it to github for first time - master branch for paid)
